@@ -5,6 +5,10 @@ import React from "react";  //tells file to import react object from the react p
 
 import Title from "./components/Titles";
 
+import Form from "./components/Form";
+
+import Weather from "./components/Weather";
+
 //need to initialize component first -
  //creates an instance of App and that instance is extending React.Component which is a object that lives inside node modules and you open up the component with curly braces
 class App extends React.Component {
@@ -19,6 +23,8 @@ class App extends React.Component {
                 //wrapper for other components
             <div>
                 <Title />
+                <Form />
+                <Weather />
             </div>
         );
     }
